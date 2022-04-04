@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+[class*="col"] {
+    flex: 0 0 auto;
+}
+
 /*----------------
     CONTENITORE
 ----------------*/
@@ -28,6 +32,12 @@
 /*----------------
     COLONNE
 ----------------*/
+.col {
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 100%;
+}
+
 .col-1 {
     flex-basis: calc(100% / 12 * 1);
     max-width: calc(100% / 12 * 1);
