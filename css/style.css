@@ -1,0 +1,30 @@
+/*----------------
+    CONTENITORE
+----------------*/
+.container {
+    min-height: 800px;
+    margin-bottom: 20px;
+}
+
+/*----------------
+    COLONNE
+----------------*/
+[class*="col"] {
+    background-color: lightblue;
+    border: 1px solid white;
+    height: 30px;
+    padding: 10px;
+}
+
+[class*="col"] [class*="col"] {
+    background-color: lightgreen;
+    border: 1px solid lightblue;
+
+}
+
+/*----------------
+    ALTEZZE
+----------------*/
+.height-50 {
+    height: 50px;
+}
