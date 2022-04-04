@@ -1,0 +1,44 @@
+/*----------------
+    COMMON
+----------------*/
+body {
+    background-color: aqua;
+}
+
+/*----------------
+    COLORS
+----------------*/
+div.bg-orange {
+    background-color: orange;
+}
+div.bg-black {
+    background-color: black;
+}
+
+
+/*----------------
+    TYPO
+----------------*/
+h1 {
+    color: blue;
+    text-transform: uppercase;
+}
+
+/*----------------
+    CONTENITORE
+----------------*/
+.container {
+    margin: 60px auto;
+}
+
+/*----------------
+    COLONNE
+----------------*/
+[class*="col"] {
+    background-color: yellow;
+    height: calc(1170px / 12);
+    text-align: center;
+}
+
+
+
