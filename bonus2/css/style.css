@@ -1,0 +1,93 @@
+/*-----------------
+    DEBUG
+------------------*/
+main {
+    background-color: black;
+    height: 900px;
+}
+
+/*-----------------
+    TYPO
+------------------*/
+body {
+    color: #0072e1;
+    font-family: 'Roboto', sans-serif;
+}
+
+i {
+    font-size: 30px;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header-left p, .header-right nav {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+/*-----------------
+    HEADER
+------------------*/
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+}
+
+.header-left, .header-right{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 20px;
+}
+
+.header-right {
+    justify-content: flex-end;
+}
+
+.header-left img {
+    height: 60px;
+    z-index: 2;
+    margin-right: 20px;
+}
+.header-right nav {
+    display: none;
+}
+
+.header-right .main-nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.header-right .main-nav {
+    list-style: none;
+}
+
+.header-right a {
+    display: inline-block;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.header-right i, {
+    margin-left: 20px;
+}
+
+@media screen and (min-width: 575px) {
+    .header-right nav {
+        display: inline-block;
+    }
+    .header-right i {
+        display: none;
+    }
+}
+
+
